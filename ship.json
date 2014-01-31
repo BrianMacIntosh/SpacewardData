@@ -1,0 +1,56 @@
+[
+    {
+        "id":"ship1",
+        "name":"Light Scout",
+        "descShort":"A lightly-armored but highly maneuverable craft.",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+        "textureFile":"data/ship/ship1.png",
+        "textureSize":{
+            "x":128,
+            "y":64
+        },
+        "maskFile":"data/ship/ship1-mask.png",
+        "damageFile":"data/ship/ship1-damaged.png",
+        "overlayFile":"data/ship/ship1-overlay.png",
+        "coreOffset":{
+            "x":64,
+            "y":42
+        },
+        "coreRadius":12,
+        "hardpoints":[{"wclass":1,"offset":{"x":24,"y":32}},{"wclass":1,"offset":{"x":104,"y":32}}],
+        "stat":{
+            "movementStats":{
+                "maxSpeed":180,
+                "maxAccel":800,
+                "minDecel":40
+            }
+        }
+    },
+    {
+        "id":"ship2",
+        "name":"Heavy Cruiser",
+        "descShort":"A big craft with many hardpoints and a heavily armored bow.",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+        "textureFile":"data/ship/ship2.png",
+        "textureSize":{
+            "x":256,
+            "y":128
+        },
+        "maskFile":"data/ship/ship2-mask.png",
+        "damageFile":"data/ship/ship2-damaged.png",
+        "overlayFile":"data/ship/ship2-overlay.png",
+        "coreOffset":{
+            "x":46,
+            "y":82
+        },
+        "coreRadius":12,
+        "hardpoints":[{"template":"gun","wclass":1,"offset":{"x":62,"y":37}},{"wclass":2,"offset":{"x":125,"y":64}},{"wclass":1,"offset":{"x":189,"y":91}}],
+        "stat":{
+            "movementStats":{
+                "maxSpeed":180,
+                "maxAccel":800,
+                "minDecel":40
+            }
+        }
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "id":"beam",
+        "name":"Laser Gun",
+        "desc":"This customized weapon fires bolts that soften enemy armor, making it more vulnerable to conventional weapons.",
+        "textureFile":"data/weapon/gun.png",
+        "textureSize":{
+            "x":48,
+            "y":48
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":true,
+            "bindsControl":-3,
+            "fires":[{"template":"laserbullet","rate":6,"firePoint":{"x":41,"y":26},"spread":{"mean":0,"stdDev":0.05}}]
+        }
+    },
+    {
+        "id":"gun",
+        "name":"Particle Cannon",
+        "desc":"A staple of space warfare, the basic particle cannon can do serious damage when applied with accuracy.",
+        "textureFile":"data/weapon/gun.png",
+        "textureSize":{
+            "x":48,
+            "y":48
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":true,
+            "bindsControl":-1,
+            "fires":[{"template":"bullet1","rate":6,"firePoint":{"x":41,"y":26},"spread":{"mean":0,"stdDev":0.05},"kick":2}]
+        }
+    },
+    {
+        "id":"minelayer",
+        "name":"Minelayer",
+        "desc":"This tool deploys space mines.",
+        "textureFile":"data/weapon/minelayer.png",
+        "textureSize":{
+            "x":80,
+            "y":80
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":false,
+            "bindsControl":1,
+            "fires":[{"template":"spacemine","rate":0.5,"firePoint":{"x":40,"y":40},"atAngle":0,"soundFile":"data/weapon/94127__bmaczero__clank1.wav"}]
+        }
+    },
+    {
+        "id":"thruster_boost",
+        "name":"Boost Thruster",
+        "desc":"An extra rocket attached to your ship provides a quick burst of speed.",
+        "textureFile":"data/weapon/thruster.png",
+        "textureSize":{
+            "x":80,
+            "y":80
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":false,
+            "bindsControl":2,
+            "fires":[{"rate":0.2,"firePoint":{"x":40,"y":40},"atAngle":0}]
+        },
+        "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
+    },
+    {
+        "id":"thruster_down",
+        "name":"Juke Thruster A",
+        "desc":"A boost rocket attached to the ship at a fixed angle.  Useful for dodging enemy attacks.",
+        "textureFile":"data/weapon/thruster.png",
+        "textureSize":{
+            "x":80,
+            "y":80
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":false,
+            "bindsControl":2,
+            "fires":[{"rate":0.2,"firePoint":{"x":40,"y":40},"atAngle":0}],
+            "overrideAngle":1.5708
+        },
+        "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
+    }
+]
