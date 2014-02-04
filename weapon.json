@@ -12,7 +12,7 @@
         "stat":{
             "autoFire":true,
             "bindsControl":-3,
-            "fires":[{"template":"laserbullet","rate":6,"firePoint":{"x":41,"y":26},"spread":{"mean":0,"stdDev":0.05}}]
+            "fires":[{"template":"laserbullet","rate":6,"firePoint":{"x":41,"y":26},"spread":{"mean":0,"stdDev":0.05},"soundFile":"data/weapon/Weapon_SmallLaser.wav"}]
         }
     },
     {
@@ -28,7 +28,7 @@
         "stat":{
             "autoFire":true,
             "bindsControl":-1,
-            "fires":[{"template":"bullet1","rate":6,"firePoint":{"x":41,"y":26},"spread":{"mean":0,"stdDev":0.05},"kick":2}]
+            "fires":[{"template":"bullet1","rate":6,"firePoint":{"x":41,"y":26},"spread":{"mean":0,"stdDev":0.05},"kick":2,"soundFile":"data/weapon/Weapon_SmallLaser.wav"}]
         }
     },
     {
@@ -60,7 +60,7 @@
         "stat":{
             "autoFire":false,
             "bindsControl":2,
-            "fires":[{"rate":0.2,"firePoint":{"x":40,"y":40},"atAngle":0}]
+            "fires":[{"rate":0.2,"firePoint":{"x":40,"y":40},"atAngle":0,"soundFile":"data/weapon/Thruster.wav"}]
         },
         "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
     },
@@ -77,7 +77,7 @@
         "stat":{
             "autoFire":false,
             "bindsControl":2,
-            "fires":[{"rate":0.2,"firePoint":{"x":40,"y":40},"atAngle":0}],
+            "fires":[{"rate":0.2,"firePoint":{"x":40,"y":40},"atAngle":0,"soundFile":"data/weapon/Thruster.wav"}],
             "overrideAngle":1.5708
         },
         "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
