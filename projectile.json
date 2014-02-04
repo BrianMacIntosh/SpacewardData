@@ -20,8 +20,8 @@
         },
         "stat":{
             "movementStats":{
-                "maxSpeed":1150,
-                "minSpeed":1150,
+                "maxSpeed":2000,
+                "minSpeed":2000,
                 "maxAccel":0,
                 "minDecel":0
             },
