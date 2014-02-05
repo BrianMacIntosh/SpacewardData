@@ -1,0 +1,25 @@
+{
+	"teams":
+	[
+		{
+			"logoFile": "media/bluelogo.png",
+			"logoSize": { "x": 180, "y": 180 },
+			"name": "The Blue Team",
+			"color": 255,
+			"soiColor": 7829503,
+			"invertShips": false
+		},
+		{
+			"logoFile": "media/redlogo.png",
+			"logoSize": { "x": 180, "y": 180 },
+			"name": "The Red Team",
+			"color": 16711680,
+			"soiColor": 16742263,
+			"invertShips": true
+		}
+	],
+	"maps":
+	[
+		"basic"
+	]
+}
