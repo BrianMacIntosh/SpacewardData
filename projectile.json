@@ -4,7 +4,7 @@
         "type":"projectile",
         "textureFile":"data/projectile/bullet.png",
         "textureSize":{
-            "x":32,
+            "x":128,
             "y":32
         },
         "collider":{
@@ -39,9 +39,9 @@
     {
         "id":"laserbullet",
         "type":"projectile",
-        "textureFile":"data/projectile/bullet.png",
+        "textureFile":"data/projectile/laserbullet.png",
         "textureSize":{
-            "x":32,
+            "x":128,
             "y":32
         },
         "collider":{
