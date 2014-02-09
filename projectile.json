@@ -4,8 +4,8 @@
         "type":"projectile",
         "textureFile":"data/projectile/bullet.png",
         "textureSize":{
-            "x":128,
-            "y":32
+            "x":256,
+            "y":48
         },
         "collider":{
             "type":"ray"
@@ -20,8 +20,8 @@
         },
         "stat":{
             "movementStats":{
-                "maxSpeed":1000,
-                "minSpeed":1000,
+                "maxSpeed":2000,
+                "minSpeed":2000,
                 "maxAccel":0,
                 "minDecel":0
             },
@@ -41,16 +41,16 @@
         "type":"projectile",
         "textureFile":"data/projectile/laserbullet.png",
         "textureSize":{
-            "x":128,
-            "y":32
+            "x":256,
+            "y":48
         },
         "collider":{
             "type":"ray"
         },
         "stat":{
             "movementStats":{
-                "maxSpeed":3000,
-                "minSpeed":3000,
+                "maxSpeed":2000,
+                "minSpeed":2000,
                 "maxAccel":0,
                 "minDecel":0
             },
@@ -83,6 +83,38 @@
                 "maxSpeed":250,
                 "maxAccel":0,
                 "minDecel":160
+            },
+            "damagePacket":{
+                "pixelKill":30,
+                "pixelDamage":50,
+                "pixelDebuff":0,
+                "armorKill":18,
+                "armorDamage":25,
+                "armorDebuff":0,
+                "coreDamage":2
+            }
+        }
+    },
+    {
+	"id":"rocket",
+	"type":"projectile",
+	"textureFile":"data/projectile/rocket.png",
+        "textureSize":{
+            "x":32,
+            "y":32
+        },
+        "fixedOrientation":false,
+	"trailEffect":"e_rocketsmoke",
+        "collider":{
+            "type":"circle",
+            "radius":15
+        },
+        "stat":{
+            "movementStats":{
+                "maxSpeed":800,
+		"minSpeed":100,
+                "maxAccel":300,
+                "minDecel":0
             },
             "damagePacket":{
                 "pixelKill":30,

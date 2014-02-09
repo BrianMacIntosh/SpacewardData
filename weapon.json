@@ -15,6 +15,7 @@
             "fires":[
                 {
                     "template":"laserbullet",
+		    "muzzleEffect":"gun_muzzle",
                     "rate":6,
                     "firePoint":{
                         "x":41,
@@ -24,6 +25,7 @@
                         "mean":0,
                         "stdDev":0.05
                     },
+		    "kick":1,
                     "sound":{
                         "file":"data/weapon/Weapon_SmallLaser.wav"
                     }
@@ -47,6 +49,7 @@
             "fires":[
                 {
                     "template":"bullet1",
+		    "muzzleEffect":"gun_muzzle",
                     "rate":6,
                     "firePoint":{
                         "x":41,
@@ -151,5 +154,31 @@
             "overrideAngle":1.5708
         },
         "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
+    },
+    {
+        "id":"rocketpod",
+        "name":"Rocket Pod",
+        "desc":"Boom.",
+        "textureFile":"data/weapon/rocketpod.png",
+        "textureSize":{
+            "x":64,
+            "y":64
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":false,
+            "bindsControl":1,
+            "fires":[
+                {
+                    "template":"rocket",
+                    "rate":5,
+                    "firePoint":{
+                        "x":32,
+                        "y":32
+                    },
+                    "atAngle":0
+                }
+            ]
+        }
     }
 ]

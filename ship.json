@@ -90,5 +90,32 @@
                 "minDecel":40
             }
         }
+    },
+    {
+        "id":"sapper",
+        "name":"Sapper",
+        "descShort":"A lightly-armored but highly maneuverable craft.",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+        "textureFile":"data/ship/sapper.png",
+        "textureSize":{
+            "x":241,
+            "y":128
+        },
+        "maskFile":"data/ship/sapper-mask.png",
+        "damageFile":"data/ship/sapper-damaged.png",
+        "overlayFile":"data/ship/sapper-overlay.png",
+        "coreOffset":{
+            "x":64,
+            "y":42
+        },
+        "coreRadius":12,
+        "hardpoints":[],
+        "stat":{
+            "movementStats":{
+                "maxSpeed":180,
+                "maxAccel":800,
+                "minDecel":40
+            }
+        }
     }
 ]
