@@ -85,8 +85,8 @@
         ],
         "stat":{
             "movementStats":{
-                "maxSpeed":180,
-                "maxAccel":800,
+                "maxSpeed":130,
+                "maxAccel":500,
                 "minDecel":40
             }
         }
@@ -105,11 +105,26 @@
         "damageFile":"data/ship/sapper-damaged.png",
         "overlayFile":"data/ship/sapper-overlay.png",
         "coreOffset":{
-            "x":64,
-            "y":42
+            "x":70,
+            "y":30
         },
         "coreRadius":12,
-        "hardpoints":[],
+        "hardpoints":[
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":26,
+                    "y":47
+                }
+            },
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":154,
+                    "y":51
+                }
+            }
+	],
         "stat":{
             "movementStats":{
                 "maxSpeed":180,
