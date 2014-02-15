@@ -79,6 +79,9 @@
             "radius":15
         },
         "stat":{
+	    "physics":true,
+	    "lifeTime":0,
+	    "armTime":3,
             "movementStats":{
                 "maxSpeed":250,
                 "maxAccel":0,
@@ -93,7 +96,9 @@
                 "armorDebuff":0,
                 "coreDamage":2
             }
-        }
+        },
+	"onUpdate":"(function(d){this.stat.lifeTime+=d;})",
+	"onImpact":"(function(ship,local){this.persist=this.fizzle=(this.stat.lifeTime<this.stat.armTime);})"
     },
     {
 	"id":"rocket",
@@ -110,6 +115,7 @@
             "radius":15
         },
         "stat":{
+	    "physics":true,
             "movementStats":{
                 "maxSpeed":800,
 		"minSpeed":100,
