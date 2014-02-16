@@ -15,7 +15,27 @@
             "movementStats":{
                 "maxSpeed":2000,
                 "maxAccel":0,
-                "maxDecel":0
+                "minDecel":100
+            }
+        }
+    },
+    {
+	"id":"asteroid_big",
+        "textureFile":"data/element/asteroid_big.png",
+        "textureSize":{
+            "x":128,
+            "y":128
+        },
+        "dynamic":true,
+        "collider":{
+            "type":"circle",
+            "radius":48
+        },
+        "stat":{
+            "movementStats":{
+                "maxSpeed":2000,
+                "maxAccel":0,
+                "minDecel":100
             }
         }
     },
@@ -42,7 +62,7 @@
             "movementStats":{
                 "maxSpeed":0,
                 "maxAccel":0,
-                "maxDecel":0
+                "minDecel":0
             }
         }
     },
@@ -68,7 +88,7 @@
             "movementStats":{
                 "maxSpeed":0,
                 "maxAccel":0,
-                "maxDecel":0
+                "minDecel":0
             }
         }
     }
