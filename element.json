@@ -59,12 +59,38 @@
         "captureTime":100,
         "captureIsOneWay":true,
         "stat":{
+	    "ignoreFog":true,
+	    "fogClearRadius":1500,
             "movementStats":{
                 "maxSpeed":0,
                 "maxAccel":0,
                 "minDecel":0
             }
         }
+    },
+    {
+	"id":"basecore_shield",
+	"textureFile":"data/element/basecore_shield.png",
+	"textureSize":{
+	    "x":2000,
+	    "y":2000
+	},
+	"overlayFile":"data/element/basecore_shield-overlay.png",
+	"dynamic":false,
+	"collider":{
+	    "type":"circle",
+	    "radius":1000,
+	    "excludeAllies":true,
+	    "renderAsOutline":true
+	},
+	"disableAsShield":true,
+	"stat":{
+	    "movementStats":{
+		"maxSpeed":0,
+                "maxAccel":0,
+                "minDecel":0
+            }
+	}
     },
     {
         "id":"shieldcore",
@@ -83,8 +109,10 @@
             "type":"circle",
             "radius":256
         },
-        "neutralizeTime":100,
+        "neutralizeTime":45,
         "stat":{
+	    "ignoreFog":true,
+	    "fogClearRadius":800,
             "movementStats":{
                 "maxSpeed":0,
                 "maxAccel":0,

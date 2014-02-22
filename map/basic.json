@@ -15,16 +15,26 @@
 			"mirror": "xyt"
 		},
 		{
-			"template": "shieldcore",
-			"position": { "x": 4000, "y": 800 },
+			"template": "basecore_shield",
+			"position": { "x": 1400, "y": 1000 },
 			"team": 0,
 			"mirror": "xyt"
 		},
 		{
 			"template": "shieldcore",
+			"position": { "x": 3600, "y": 800 },
+			"team": 0,
+			"mirror": "xyt",
+			"tag": "upper",
+			"mirrortag": "lower"
+		},
+		{
+			"template": "shieldcore",
 			"position": { "x": 2000, "y": 3000 },
 			"team": 0,
-			"mirror": "xyt"
+			"mirror": "xyt",
+			"tag": "lower",
+			"mirrortag": "upper"
 		},
 		{
 			"template": "asteroid_big",

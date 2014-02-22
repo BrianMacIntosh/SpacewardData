@@ -76,7 +76,7 @@
             "x":80,
             "y":80
         },
-        "wclass":1,
+        "wclass":2,
         "stat":{
             "autoFire":false,
             "bindsControl":1,
@@ -164,7 +164,7 @@
             "x":64,
             "y":64
         },
-        "wclass":1,
+        "wclass":2,
         "stat":{
             "autoFire":false,
             "bindsControl":1,

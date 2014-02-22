@@ -1,7 +1,7 @@
 [
     {
         "id":"ship1",
-        "name":"Light Scout",
+        "name":"AWT5 'Centennial Falcon' Light Scout",
         "descShort":"A lightly-armored but highly maneuverable craft.",
         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
         "textureFile":"data/ship/ship1.png",
@@ -35,7 +35,7 @@
         ],
         "stat":{
             "movementStats":{
-                "maxSpeed":180,
+                "maxSpeed":220,
                 "maxAccel":800,
                 "minDecel":40
             }
@@ -43,7 +43,7 @@
     },
     {
         "id":"ship2",
-        "name":"Heavy Cruiser",
+        "name":"AWT6 'Vector' Heavy Cruiser",
         "descShort":"A big craft with many hardpoints and a heavily armored bow.",
         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
         "textureFile":"data/ship/ship2.png",
@@ -81,6 +81,13 @@
                     "x":189,
                     "y":91
                 }
+            },
+            {
+                "wclass":1,
+                "offset":{
+                    "x":117,
+                    "y":110
+                }
             }
         ],
         "stat":{
@@ -93,7 +100,7 @@
     },
     {
         "id":"sapper",
-        "name":"Sapper",
+        "name":"AWT4 Sapper",
         "descShort":"A lightly-armored but highly maneuverable craft.",
         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
         "textureFile":"data/ship/sapper.png",
@@ -111,7 +118,7 @@
         "coreRadius":12,
         "hardpoints":[
 	    {
-                "wclass":2,
+                "wclass":1,
                 "offset":{
                     "x":26,
                     "y":47
@@ -120,8 +127,15 @@
 	    {
                 "wclass":2,
                 "offset":{
-                    "x":154,
-                    "y":51
+                    "x":100,
+                    "y":59
+                }
+            },
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":146,
+                    "y":59
                 }
             }
 	],
@@ -129,6 +143,111 @@
             "movementStats":{
                 "maxSpeed":180,
                 "maxAccel":800,
+                "minDecel":40
+            }
+        }
+    },
+    {
+        "id":"temp1",
+        "name":"SR-105 'Hawkbill' Destroyer",
+        "descShort":"A well-rounded craft.",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+        "textureFile":"data/ship/temp1.png",
+        "textureSize":{
+            "x":308,
+            "y":128
+        },
+        "maskFile":"data/ship/temp1-mask.png",
+        "damageFile":"data/ship/temp1-damaged.png",
+        "overlayFile":"data/ship/temp1-overlay.png",
+        "coreOffset":{
+            "x":80,
+            "y":60
+        },
+        "coreRadius":12,
+        "hardpoints":[
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":248,
+                    "y":80
+                }
+            },
+	    {
+                "wclass":1,
+                "offset":{
+                    "x":22,
+                    "y":88
+                }
+            },
+	    {
+                "wclass":1,
+                "offset":{
+                    "x":85,
+                    "y":88
+                }
+            }
+	],
+        "stat":{
+            "movementStats":{
+                "maxSpeed":160,
+                "maxAccel":700,
+                "minDecel":40
+            }
+        }
+    },
+    {
+        "id":"temp2",
+        "name":"SR-405 'Angry Bee' Heavy Cruiser",
+        "descShort":"It was big. Reeally big. No, bigger than that.",
+        "desc":"We're talking leviathans and battleships here.",
+        "textureFile":"data/ship/temp2.png",
+        "textureSize":{
+            "x":380,
+            "y":200
+        },
+        "maskFile":"data/ship/temp2-mask.png",
+        "damageFile":"data/ship/temp2-damaged.png",
+        "overlayFile":"data/ship/temp2-overlay.png",
+        "coreOffset":{
+            "x":235,
+            "y":86
+        },
+        "coreRadius":12,
+        "hardpoints":[
+	    {
+                "wclass":1,
+                "offset":{
+                    "x":34,
+                    "y":102
+                }
+            },
+	    {
+                "wclass":1,
+                "offset":{
+                    "x":96,
+                    "y":81
+                }
+            },
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":155,
+                    "y":59
+                }
+            },
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":339,
+                    "y":105
+                }
+            }
+	],
+        "stat":{
+            "movementStats":{
+                "maxSpeed":80,
+                "maxAccel":600,
                 "minDecel":40
             }
         }
