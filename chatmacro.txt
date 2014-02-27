@@ -1,0 +1,32 @@
+[A]ttack
+	[enemy_shield]Attack the [tag] shield!
+	Attack the [c]ore!
+	[A]ttack!
+	[W]ait for my signal to attack.
+[D]efend
+	[our_shield]Defend our [tag] shield!
+	Defend our [c]ore!
+[R]equest
+	
+[S]elf
+	[A]ttack
+		[enemy_shield]I'll attack the [tag] shield!
+		I'll attack the [c]ore!
+	[D]efend
+		[our_shield]I'll defend our [tag] shield!
+		I'll defend our [c]ore!
+[G]lobal
+	[H]i.
+	[B]ye.
+	[S]orry.
+	[T]hanks.
+	[Y]es.
+	[N]o.
+	[A]ny time.
+[V]Quick
+	[C]heck your fire!
+	[S]orry.
+	[T]hanks.
+	[Y]es.
+	[N]o.
+	[A]ny time.

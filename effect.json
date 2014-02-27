@@ -11,6 +11,11 @@
 		"textureFile":"data/effect/smoke.png",
 		"textureSize":{"x":32,"y":32},
 		"fadeOut":true,
+		"scaleOver":
+		{
+			"start":1,
+			"end":2.5
+		},
 		"movementStats":
 		{
 			"maxSpeed":1000,
@@ -59,13 +64,13 @@
 				"emits":"rocketsmoke",
 				"velocity":
 				{
-					"mean":-280,
+					"mean":-270,
 					"stdDev":30
 				},
 				"angle":
 				{
 					"mean":0,
-					"stdDev":0.25
+					"stdDev":0.15
 				},
 				"spawnInterval":
 				{
