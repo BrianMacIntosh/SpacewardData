@@ -74,6 +74,7 @@
             "y":32
         },
         "fixedOrientation":true,
+	"deathEffect":"e_explosion_small",
         "collider":{
             "type":"circle",
             "radius":15
@@ -109,6 +110,7 @@
             "y":32
         },
         "fixedOrientation":false,
+	"deathEffect":"e_explosion_small",
 	"trailEffect":"e_rocketsmoke",
         "collider":{
             "type":"circle",

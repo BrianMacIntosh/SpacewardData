@@ -74,5 +74,56 @@
 				}
 			}
 		]
+	},
+	{
+		"id":"e_explosion_small",
+		"lifeTime":0.3,
+		"sources":
+		[
+			{
+				"emits":"circle_white_small",
+				"spawnInterval":
+				{
+					"mean":0.1,
+					"stdDev":0
+				}
+			},
+			{
+				"emits":"circle_black_small",
+				"spawnInterval":
+				{
+					"offset":-0.1,
+					"mean":0.1,
+					"stdDev":0
+				}
+			}
+		]
+	},
+	{
+		"id":"circle_white_small",
+		"lifeTime":0.05,
+		"textureFile":"data/effect/circle_med_white.png",
+		"textureSize":{"x":64,"y":64},
+		"fadeOut":true,
+		"movementStats":
+		{
+			"maxSpeed":1,
+			"minSpeed":0,
+			"maxAccel":0,
+			"minDecel":60
+		}
+	},
+	{
+		"id":"circle_black_small",
+		"lifeTime":0.05,
+		"textureFile":"data/effect/circle_med_black.png",
+		"textureSize":{"x":64,"y":64},
+		"movementStats":
+		{
+			"maxSpeed":1,
+			"minSpeed":0,
+			"maxAccel":0,
+			"minDecel":60
+		}
 	}
 ]
