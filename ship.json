@@ -12,6 +12,11 @@
         "maskFile":"data/ship/ship1-mask.png",
         "damageFile":"data/ship/ship1-damaged.png",
         "overlayFile":"data/ship/ship1-overlay.png",
+	"enginePoints":
+	[
+		{ "x": 27, "y": 41 },
+		{ "x": 94, "y": 41 }
+	],
         "coreOffset":{
             "x":64,
             "y":42
@@ -54,6 +59,12 @@
         "maskFile":"data/ship/ship2-mask.png",
         "damageFile":"data/ship/ship2-damaged.png",
         "overlayFile":"data/ship/ship2-overlay.png",
+	"enginePoints":
+	[
+		{ "x": 21, "y": 60 },
+		{ "x": 21, "y": 99 },
+		{ "x": 175, "y": 96 }
+	],
         "coreOffset":{
             "x":46,
             "y":82
@@ -111,6 +122,11 @@
         "maskFile":"data/ship/sapper-mask.png",
         "damageFile":"data/ship/sapper-damaged.png",
         "overlayFile":"data/ship/sapper-overlay.png",
+	"enginePoints":
+	[
+		{ "x":18, "y":42 },
+		{ "x":116, "y":59 }
+	],
         "coreOffset":{
             "x":70,
             "y":30
@@ -160,6 +176,12 @@
         "maskFile":"data/ship/temp1-mask.png",
         "damageFile":"data/ship/temp1-damaged.png",
         "overlayFile":"data/ship/temp1-overlay.png",
+	"enginePoints":
+	[
+		{ "x": 238, "y": 103 },
+		{ "x": 45, "y": 44 },
+		{ "x": 19, "y": 88 }
+	],
         "coreOffset":{
             "x":80,
             "y":60
@@ -209,6 +231,15 @@
         "maskFile":"data/ship/temp2-mask.png",
         "damageFile":"data/ship/temp2-damaged.png",
         "overlayFile":"data/ship/temp2-overlay.png",
+	"enginePoints":
+	[
+		{ "x": 15, "y": 104 },
+		{ "x": 15, "y": 140 },
+		{ "x": 287, "y": 108 },
+		{ "x": 340, "y": 108 },
+		{ "x": 126, "y": 41 },
+		{ "x": 230, "y": 40 }
+	],
         "coreOffset":{
             "x":235,
             "y":86
