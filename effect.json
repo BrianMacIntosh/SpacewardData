@@ -132,16 +132,10 @@
 		}
 	},
 	{
-		"id":"ions",
-		"lifeTime":0.5,
+		"id":"ion",
 		"textureFile":"data/effect/ions.png",
-		"textureSize":{"x":40,"y":40},
+		"textureSize":{"x":224,"y":32},
 		"overrideDepth":-60,
-		"scaleOver":
-		{
-			"start":1,
-			"end":0
-		},
 		"movementStats":
 		{
 			"maxSpeed":10000,
@@ -149,25 +143,5 @@
 			"maxAccel":0,
 			"minDecel":60
 		}
-	},
-	{
-		"id":"e_ions",
-		"sources":
-		[
-			{
-				"emits":"ions",
-				"inheritVelocity":true,
-				"spawnInterval":
-				{
-					"mean":0.05,
-					"stdDev":0
-				},
-				"velocity":
-				{
-					"mean":-300,
-					"stdDev":0
-				}
-			}
-		]
 	}
 ]

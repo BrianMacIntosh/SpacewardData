@@ -277,8 +277,8 @@
 	],
         "stat":{
             "movementStats":{
-                "maxSpeed":80,
-                "maxAccel":600,
+                "maxSpeed":100,
+                "maxAccel":300,
                 "minDecel":40
             }
         }
