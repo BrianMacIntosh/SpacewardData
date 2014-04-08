@@ -25,6 +25,44 @@
 		}
 	},
 	{
+		"id":"expsmoke",
+		"lifeTime":2,
+		"textureFile":"data/effect/smoke.png",
+		"textureSize":{"x":32,"y":32},
+		"fadeOut":true,
+		"scaleOver":
+		{
+			"start":1,
+			"end":2.5
+		},
+		"movementStats":
+		{
+			"maxSpeed":700,
+			"minSpeed":0,
+			"maxAccel":0,
+			"minDecel":60
+		}
+	},
+	{
+		"id":"expfire",
+		"lifeTime":1,
+		"textureFile":"data/effect/fire.png",
+		"textureSize":{"x":64,"y":64},
+		"fadeOut":true,
+		"scaleOver":
+		{
+			"start":0.7,
+			"end":1.5
+		},
+		"movementStats":
+		{
+			"maxSpeed":600,
+			"minSpeed":0,
+			"maxAccel":0,
+			"minDecel":80
+		}
+	},
+	{
 		"id":"shipfrag",
 		"lifeTime":3,
 		"textureFile":"data/effect/fragment.png",
@@ -76,6 +114,11 @@
 				{
 					"mean":0.02,
 					"stdDev":0
+				},
+				"rotation":
+				{
+					"mean":0,
+					"stdDev":2
 				}
 			}
 		]
@@ -100,6 +143,54 @@
 					"offset":-0.1,
 					"mean":0.1,
 					"stdDev":0
+				}
+			},
+			{
+				"emits":"expsmoke",
+				"spawnCount":4,
+				"spawnInterval":
+				{
+					"mean":0.0,
+					"stdDev":0.0
+				},
+				"angle":
+				{
+					"mean":0,
+					"stdDev":3.1416
+				},
+				"velocity":
+				{
+					"mean":130,
+					"stdDev":50
+				},
+				"rotation":
+				{
+					"mean":0,
+					"stdDev":2
+				}
+			},
+			{
+				"emits":"expfire",
+				"spawnCount":1,
+				"spawnInterval":
+				{
+					"mean":0.0,
+					"stdDev":0.0
+				},
+				"angle":
+				{
+					"mean":0,
+					"stdDev":3.1416
+				},
+				"velocity":
+				{
+					"mean":90,
+					"stdDev":50
+				},
+				"rotation":
+				{
+					"mean":0,
+					"stdDev":3.5
 				}
 			}
 		]

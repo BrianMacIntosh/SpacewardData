@@ -40,71 +40,8 @@
         ],
         "stat":{
             "movementStats":{
-                "maxSpeed":220,
-                "maxAccel":800,
-                "minDecel":40
-            }
-        }
-    },
-    {
-        "id":"ship2",
-        "name":"AWT6 'Vector' Heavy Cruiser",
-        "descShort":"A big craft with many hardpoints and a heavily armored bow.",
-        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-        "textureFile":"data/ship/ship2.png",
-        "textureSize":{
-            "x":256,
-            "y":128
-        },
-        "maskFile":"data/ship/ship2-mask.png",
-        "damageFile":"data/ship/ship2-damaged.png",
-        "overlayFile":"data/ship/ship2-overlay.png",
-	"enginePoints":
-	[
-		{ "x": 21, "y": 60 },
-		{ "x": 21, "y": 99 },
-		{ "x": 175, "y": 96 }
-	],
-        "coreOffset":{
-            "x":46,
-            "y":82
-        },
-        "coreRadius":12,
-        "hardpoints":[
-            {
-                "template":"gun",
-                "wclass":1,
-                "offset":{
-                    "x":62,
-                    "y":37
-                }
-            },
-            {
-                "wclass":2,
-                "offset":{
-                    "x":125,
-                    "y":64
-                }
-            },
-            {
-                "wclass":1,
-                "offset":{
-                    "x":189,
-                    "y":91
-                }
-            },
-            {
-                "wclass":1,
-                "offset":{
-                    "x":117,
-                    "y":110
-                }
-            }
-        ],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":130,
-                "maxAccel":500,
+                "maxSpeed":850,
+                "maxAccel":1100,
                 "minDecel":40
             }
         }
@@ -157,7 +94,7 @@
 	],
         "stat":{
             "movementStats":{
-                "maxSpeed":180,
+                "maxSpeed":450,
                 "maxAccel":800,
                 "minDecel":40
             }
@@ -212,7 +149,7 @@
 	],
         "stat":{
             "movementStats":{
-                "maxSpeed":160,
+                "maxSpeed":400,
                 "maxAccel":700,
                 "minDecel":40
             }
@@ -277,8 +214,72 @@
 	],
         "stat":{
             "movementStats":{
-                "maxSpeed":100,
-                "maxAccel":300,
+                "maxSpeed":300,
+                "maxAccel":400,
+                "minDecel":40
+            }
+        }
+    },
+    {
+        "id":"orion",
+        "name":"Orion Artillery",
+        "descShort":"Zap.",
+        "desc":"Zapzapzapzapzapzapazppzapzpzapazppap.",
+        "textureFile":"data/ship/orion.png",
+        "textureSize":{
+            "x":380,
+            "y":200
+        },
+        "maskFile":"data/ship/orion-mask.png",
+        "damageFile":"data/ship/orion-damaged.png",
+        "overlayFile":"data/ship/orion-overlay.png",
+	"enginePoints":
+	[
+		{ "x": 10, "y": 94 },
+		{ "x": 10, "y": 120 },
+		{ "x": 247, "y": 55 },
+		{ "x": 113, "y": 147 },
+		{ "x": 350, "y": 88 }
+	],
+        "coreOffset":{
+            "x":80,
+            "y":68
+        },
+        "coreRadius":12,
+        "hardpoints":[
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":136,
+                    "y":133
+                }
+            },
+	    {
+                "wclass":1,
+                "offset":{
+                    "x":184,
+                    "y":55
+                }
+            },
+	    {
+                "wclass":1,
+                "offset":{
+                    "x":247,
+                    "y":55
+                }
+            },
+	    {
+                "wclass":2,
+                "offset":{
+                    "x":63,
+                    "y":143
+                }
+            }
+	],
+        "stat":{
+            "movementStats":{
+                "maxSpeed":300,
+                "maxAccel":400,
                 "minDecel":40
             }
         }

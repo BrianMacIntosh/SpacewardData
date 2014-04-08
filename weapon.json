@@ -25,7 +25,7 @@
                         "mean":0,
                         "stdDev":0.05
                     },
-		    "kick":1,
+		    "kick":3,
                     "sound":{
                         "file":"data/weapon/Weapon_SmallLaser.wav"
                     }
@@ -59,7 +59,7 @@
                         "mean":0,
                         "stdDev":0.05
                     },
-                    "kick":2,
+                    "kick":6,
                     "sound":{
                         "file":"data/weapon/Weapon_SmallLaser.wav"
                     }
@@ -88,6 +88,7 @@
                         "x":40,
                         "y":40
                     },
+		    "kick":3,
                     "atAngle":0,
                     "sound":{
                         "file":"data/weapon/94127__bmaczero__clank1.wav"
@@ -116,42 +117,13 @@
                         "x":40,
                         "y":40
                     },
+		    "kick":10,
                     "atAngle":0,
                     "sound":{
                         "file":"data/weapon/Thruster.wav"
                     }
                 }
             ]
-        },
-        "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
-    },
-    {
-        "id":"thruster_down",
-        "name":"Juke Thruster A",
-        "desc":"A boost rocket attached to the ship at a fixed angle.  Useful for dodging enemy attacks.",
-        "textureFile":"data/weapon/thruster.png",
-        "textureSize":{
-            "x":80,
-            "y":80
-        },
-        "wclass":1,
-        "stat":{
-            "autoFire":false,
-            "bindsControl":2,
-            "fires":[
-                {
-                    "rate":0.2,
-                    "firePoint":{
-                        "x":40,
-                        "y":40
-                    },
-                    "atAngle":0,
-                    "sound":{
-                        "file":"data/weapon/Thruster.wav"
-                    }
-                }
-            ],
-            "overrideAngle":1.5708
         },
         "onFire":"(function(source){this.getOwner().movementPacket.velocity.add(this.aimDir.multiplied(500));})"
     },
@@ -171,11 +143,12 @@
             "fires":[
                 {
                     "template":"rocket",
-                    "rate":5,
+                    "rate":1.2,
                     "firePoint":{
                         "x":32,
                         "y":32
                     },
+		    "kick":6,
                     "atAngle":0
                 }
             ]

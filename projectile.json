@@ -11,23 +11,23 @@
             "type":"ray"
         },
         "areaImpactShake":{
-            "magnitude":2,
+            "magnitude":20,
             "duration":0.1
         },
         "targetImpactShake":{
-            "magnitude":6,
+            "magnitude":60,
             "duration":0.25
         },
         "stat":{
             "movementStats":{
-                "maxSpeed":2000,
-                "minSpeed":2000,
+                "maxSpeed":2400,
+                "minSpeed":2400,
                 "maxAccel":0,
                 "minDecel":0
             },
             "damagePacket":{
-                "pixelKill":3.5,
-                "pixelDamage":10,
+                "pixelKill":6,
+                "pixelDamage":12,
                 "pixelDebuff":0,
                 "armorKill":1,
                 "armorDamage":5.5,
@@ -47,20 +47,28 @@
         "collider":{
             "type":"ray"
         },
+        "areaImpactShake":{
+            "magnitude":10,
+            "duration":0.1
+        },
+        "targetImpactShake":{
+            "magnitude":30,
+            "duration":0.25
+        },
         "stat":{
             "movementStats":{
-                "maxSpeed":2000,
-                "minSpeed":2000,
+                "maxSpeed":2400,
+                "minSpeed":2400,
                 "maxAccel":0,
                 "minDecel":0
             },
             "damagePacket":{
                 "pixelKill":2,
                 "pixelDamage":0,
-                "pixelDebuff":5,
+                "pixelDebuff":10,
                 "armorKill":0.5,
                 "armorDamage":0,
-                "armorDebuff":9,
+                "armorDebuff":16,
                 "coreDamage":1
             }
         }
@@ -78,6 +86,14 @@
         "collider":{
             "type":"circle",
             "radius":15
+        },
+	"areaImpactShake":{
+            "magnitude":160,
+            "duration":0.3
+        },
+        "targetImpactShake":{
+            "magnitude":200,
+            "duration":0.3
         },
         "stat":{
 	    "physics":true,
@@ -116,17 +132,33 @@
             "type":"circle",
             "radius":15
         },
+	"areaImpactShake":{
+            "magnitude":160,
+            "duration":0.3
+        },
+        "targetImpactShake":{
+            "magnitude":200,
+            "duration":0.3
+        },
+	"areaImpactShake":{
+            "magnitude":1600,
+            "duration":0.3
+        },
+        "targetImpactShake":{
+            "magnitude":2000,
+            "duration":0.3
+        },
         "stat":{
 	    "physics":true,
             "movementStats":{
-                "maxSpeed":800,
-		"minSpeed":100,
-                "maxAccel":300,
+                "maxSpeed":2000,
+		"minSpeed":200,
+                "maxAccel":500,
                 "minDecel":0
             },
             "damagePacket":{
-                "pixelKill":30,
-                "pixelDamage":50,
+                "pixelKill":25,
+                "pixelDamage":40,
                 "pixelDebuff":0,
                 "armorKill":18,
                 "armorDamage":25,
