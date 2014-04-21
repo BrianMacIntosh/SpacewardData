@@ -150,6 +150,9 @@
                     },
 		    "kick":6,
                     "atAngle":0
+                    "sound":{
+                        "file":"Weapon_Missile.wav"
+                    }
                 }
             ]
         }
