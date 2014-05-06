@@ -1,12 +1,12 @@
 [
     {
-        "id":"beam",
+        "id":"laser",
         "name":"Laser Gun",
         "desc":"This customized weapon fires bolts that soften enemy armor, making it more vulnerable to conventional weapons.",
-        "textureFile":"data/weapon/gun.png",
+        "textureFile":"data/weapon/lasergun.png",
         "textureSize":{
-            "x":48,
-            "y":48
+            "x":200,
+            "y":200
         },
         "wclass":1,
         "stat":{
@@ -18,8 +18,8 @@
 		    "muzzleEffect":"gun_muzzle",
                     "rate":6,
                     "firePoint":{
-                        "x":41,
-                        "y":26
+                        "x":165,
+                        "y":93
                     },
                     "spread":{
                         "mean":0,
@@ -37,10 +37,10 @@
         "id":"gun",
         "name":"Particle Cannon",
         "desc":"A staple of space warfare, the basic particle cannon can do serious damage when applied with accuracy.",
-        "textureFile":"data/weapon/gun.png",
+        "textureFile":"data/weapon/particlegun.png",
         "textureSize":{
-            "x":48,
-            "y":48
+            "x":200,
+            "y":200
         },
         "wclass":1,
         "stat":{
@@ -52,8 +52,8 @@
 		    "muzzleEffect":"gun_muzzle",
                     "rate":6,
                     "firePoint":{
-                        "x":41,
-                        "y":26
+                        "x":158,
+                        "y":108
                     },
                     "spread":{
                         "mean":0,
@@ -68,13 +68,46 @@
         }
     },
     {
+        "id":"beam",
+        "name":"Basic Beam",
+        "desc":"Hits immediately and does continuous damage.",
+        "textureFile":"data/weapon/beamgun.png",
+        "textureSize":{
+            "x":200,
+            "y":200
+        },
+        "wclass":1,
+        "stat":{
+            "autoFire":true,
+            "bindsControl":-1,
+            "fires":[
+                {
+                    "template":"laser1",
+                    "rate":0,
+                    "firePoint":{
+                        "x":125,
+                        "y":100
+                    },
+                    "spread":{
+                        "mean":0,
+                        "stdDev":0
+                    },
+                    "kick":0,
+                    "sound":{
+                        "file":"data/weapon/Weapon_SmallLaser.wav"
+                    }
+                }
+            ]
+        }
+    },
+    {
         "id":"minelayer",
         "name":"Minelayer",
         "desc":"This tool deploys space mines.",
         "textureFile":"data/weapon/minelayer.png",
         "textureSize":{
-            "x":80,
-            "y":80
+            "x":200,
+            "y":200
         },
         "wclass":2,
         "stat":{
@@ -85,8 +118,8 @@
                     "template":"spacemine",
                     "rate":0.5,
                     "firePoint":{
-                        "x":40,
-                        "y":40
+                        "x":128,
+                        "y":106
                     },
 		    "kick":3,
                     "atAngle":0,
@@ -133,8 +166,8 @@
         "desc":"Boom.",
         "textureFile":"data/weapon/rocketpod.png",
         "textureSize":{
-            "x":64,
-            "y":64
+            "x":200,
+            "y":200
         },
         "wclass":2,
         "stat":{
@@ -143,15 +176,49 @@
             "fires":[
                 {
                     "template":"rocket",
-                    "rate":1.2,
+                    "rate":0.6,
                     "firePoint":{
-                        "x":32,
-                        "y":32
+                        "x":173,
+                        "y":92
                     },
 		    "kick":6,
                     "atAngle":0
                     "sound":{
                         "file":"Weapon_Missile.wav"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id":"railgun",
+        "name":"Rail Cannon",
+        "desc":"A devastatingly powerful launcher capable of knocking huge chunks off of enemy ships.",
+        "textureFile":"data/weapon/railgun.png",
+        "textureSize":{
+            "x":150,
+            "y":150
+        },
+        "wclass":2,
+        "stat":{
+            "autoFire":false,
+            "bindsControl":1,
+            "fires":[
+                {
+                    "template":"bullet1",
+                    "muzzleEffect":"gun_muzzle",
+                    "rate":0.3,
+                    "firePoint":{
+                        "x":90,
+                        "y":76
+                    },
+                    "spread":{
+                        "mean":0,
+                        "stdDev":0.01
+                    },
+                    "kick":12,
+                    "sound":{
+                        "file":"data/weapon/Weapon_SmallLaser.wav"
                     }
                 }
             ]

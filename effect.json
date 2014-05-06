@@ -156,7 +156,7 @@
 				"angle":
 				{
 					"mean":0,
-					"stdDev":3.1416
+					"stdDev":1.8
 				},
 				"velocity":
 				{
@@ -180,7 +180,7 @@
 				"angle":
 				{
 					"mean":0,
-					"stdDev":3.1416
+					"stdDev":1.2
 				},
 				"velocity":
 				{

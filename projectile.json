@@ -74,6 +74,43 @@
         }
     },
     {
+        "id":"laser1",
+        "type":"beam",
+        "textureFile":"data/projectile/beam.png",
+        "textureSize":{
+            "x":64,
+            "y":16
+        },
+        "collider":{
+            "type":"continueray"
+        },
+        "areaImpactShake":{
+            "magnitude":2,
+            "duration":0.1
+        },
+        "targetImpactShake":{
+            "magnitude":4,
+            "duration":0.1
+        },
+        "stat":{
+            "movementStats":{
+                "maxSpeed":3000,
+                "minSpeed":3000,
+                "maxAccel":0,
+                "minDecel":0
+            },
+            "damagePacket":{
+                "pixelKill":5,
+                "pixelDamage":8,
+                "pixelDebuff":10,
+                "armorKill":0,
+                "armorDamage":0,
+                "armorDebuff":6,
+                "coreDamage":0.1
+            }
+        }
+    },
+    {
         "id":"spacemine",
         "type":"projectile",
         "textureFile":"data/projectile/spacemine.png",
