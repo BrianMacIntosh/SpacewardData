@@ -20,9 +20,9 @@
 	[B]ye.
 	[S]orry.
 	[T]hanks.
+	[A]ny time.
 	[Y]es.
 	[N]o.
-	[A]ny time.
 [V]Quick
 	[C]heck your fire!
 	[S]orry.

@@ -1,351 +1,354 @@
 [
-    {
-        "id":"ship1",
-        "name":"AWT5 'Centennial Falcon' Light Scout",
-        "descShort":"A lightly-armored but highly maneuverable craft.",
-        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-        "textureFile":"data/ship/ship1.png",
-        "textureSize":{
-            "x":128,
-            "y":64
-        },
-        "maskFile":"data/ship/ship1-mask.png",
-        "damageFile":"data/ship/ship1-damaged.png",
-        "overlayFile":"data/ship/ship1-overlay.png",
-	"enginePoints":
-	[
-		{ "x": 27, "y": 41 },
-		{ "x": 94, "y": 41 }
-	],
-        "coreOffset":{
-            "x":64,
-            "y":42
-        },
-        "coreRadius":12,
-        "hardpoints":[
-            {
-                "wclass":1,
-                "offset":{
-                    "x":24,
-                    "y":32
-                }
-            },
-            {
-                "wclass":1,
-                "offset":{
-                    "x":104,
-                    "y":32
-                }
-            }
-        ],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":850,
-                "maxAccel":1100,
-                "minDecel":40
-            }
-        }
-    },
-    {
-        "id":"sapper",
-        "name":"AWT4 Sapper",
-        "descShort":"A lightly-armored but highly maneuverable craft.",
-        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-        "textureFile":"data/ship/sapper.png",
-        "textureSize":{
-            "x":241,
-            "y":128
-        },
-        "maskFile":"data/ship/sapper-mask.png",
-        "damageFile":"data/ship/sapper-damaged.png",
-        "overlayFile":"data/ship/sapper-overlay.png",
-	"enginePoints":
-	[
-		{ "x":18, "y":42 },
-		{ "x":116, "y":59 }
-	],
-        "coreOffset":{
-            "x":70,
-            "y":30
-        },
-        "coreRadius":12,
-        "hardpoints":[
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":26,
-                    "y":47
-                }
-            },
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":100,
-                    "y":59
-                }
-            },
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":146,
-                    "y":59
-                }
-            }
-	],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":450,
-                "maxAccel":800,
-                "minDecel":40
-            }
-        }
-    },
-    {
-        "id":"temp1",
-        "name":"SR-105 'Hawkbill' Destroyer",
-        "descShort":"A well-rounded craft.",
-        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-        "textureFile":"data/ship/temp1.png",
-        "textureSize":{
-            "x":308,
-            "y":128
-        },
-        "maskFile":"data/ship/temp1-mask.png",
-        "damageFile":"data/ship/temp1-damaged.png",
-        "overlayFile":"data/ship/temp1-overlay.png",
-	"enginePoints":
-	[
-		{ "x": 238, "y": 103 },
-		{ "x": 45, "y": 44 },
-		{ "x": 19, "y": 88 }
-	],
-        "coreOffset":{
-            "x":80,
-            "y":60
-        },
-        "coreRadius":12,
-        "hardpoints":[
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":248,
-                    "y":80
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":22,
-                    "y":88
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":85,
-                    "y":88
-                }
-            }
-	],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":400,
-                "maxAccel":700,
-                "minDecel":40
-            }
-        }
-    },
-    {
-        "id":"temp2",
-        "name":"SR-405 'Angry Bee' Heavy Cruiser",
-        "descShort":"It was big. Reeally big. No, bigger than that.",
-        "desc":"We're talking leviathans and battleships here.",
-        "textureFile":"data/ship/temp2.png",
-        "textureSize":{
-            "x":380,
-            "y":200
-        },
-        "maskFile":"data/ship/temp2-mask.png",
-        "damageFile":"data/ship/temp2-damaged.png",
-        "overlayFile":"data/ship/temp2-overlay.png",
-	"enginePoints":
-	[
-		{ "x": 15, "y": 104 },
-		{ "x": 15, "y": 140 },
-		{ "x": 287, "y": 108 },
-		{ "x": 340, "y": 108 },
-		{ "x": 126, "y": 41 },
-		{ "x": 230, "y": 40 }
-	],
-        "coreOffset":{
-            "x":235,
-            "y":86
-        },
-        "coreRadius":12,
-        "hardpoints":[
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":34,
-                    "y":102
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":96,
-                    "y":81
-                }
-            },
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":155,
-                    "y":59
-                }
-            },
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":339,
-                    "y":105
-                }
-            }
-	],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":300,
-                "maxAccel":400,
-                "minDecel":40
-            }
-        }
-    },
-    {
-        "id":"orion",
-        "name":"Orion Artillery",
-        "descShort":"Zap.",
-        "desc":"Zapzapzapzapzapzapazppzapzpzapazppap.",
-        "textureFile":"data/ship/orion.png",
-        "textureSize":{
-            "x":380,
-            "y":200
-        },
-        "maskFile":"data/ship/orion-mask.png",
-        "damageFile":"data/ship/orion-damaged.png",
-        "overlayFile":"data/ship/orion-overlay.png",
-	"enginePoints":
-	[
-		{ "x": 10, "y": 94 },
-		{ "x": 10, "y": 120 },
-		{ "x": 247, "y": 55 },
-		{ "x": 113, "y": 147 },
-		{ "x": 350, "y": 88 }
-	],
-        "coreOffset":{
-            "x":80,
-            "y":68
-        },
-        "coreRadius":12,
-        "hardpoints":[
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":136,
-                    "y":133
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":184,
-                    "y":55
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":247,
-                    "y":55
-                }
-            },
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":63,
-                    "y":143
-                }
-            }
-	],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":300,
-                "maxAccel":400,
-                "minDecel":40
-            }
-        }
-    },
-    {
-        "id":"fish",
-        "name":"Carcharodon Destroyer",
-        "descShort":"Enough said.",
-        "desc":"Nom nom nom.",
-        "textureFile":"data/ship/fish.png",
-        "textureSize":{
-            "x":506,
-            "y":206
-        },
-        "maskFile":"data/ship/fish-mask.png",
-        "damageFile":"data/ship/fish-damaged.png",
-        "overlayFile":"data/ship/fish-overlay.png",
-	"enginePoints":
-	[
-		{ "x": 19, "y": 72 },
-		{ "x": 19, "y": 149 },
-		{ "x": 213, "y": 160 },
-		{ "x": 360, "y": 160 },
-		{ "x": 203, "y": 93 }
-	],
-        "coreOffset":{
-            "x":355,
-            "y":125
-        },
-        "coreRadius":12,
-        "hardpoints":[
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":476,
-                    "y":76
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":200,
-                    "y":150
-                }
-            },
-	    {
-                "wclass":1,
-                "offset":{
-                    "x":340,
-                    "y":150
-                }
-            },
-	    {
-                "wclass":2,
-                "offset":{
-                    "x":468,
-                    "y":438
-                }
-            }
-	],
-        "stat":{
-            "movementStats":{
-                "maxSpeed":700,
-                "maxAccel":100,
-                "minDecel":40
-            }
-        }
-    }
+	{
+		"id":"ship1",
+		"name":"AWT5 'Centennial Falcon' Light Scout",
+		"descShort":"A lightly-armored but highly maneuverable craft.",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+		"textureFile":"data/ship/ship1.png",
+		"textureSize":{
+			"x":128,
+			"y":64
+		},
+		"maskFile":"data/ship/ship1-mask.png",
+		"damageFile":"data/ship/ship1-damaged.png",
+		"overlayFile":"data/ship/ship1-overlay.png",
+		"enginePoints":
+		[
+			{ "x": 27, "y": 41 },
+			{ "x": 94, "y": 41 }
+		],
+		"coreOffset":{
+			"x":64,
+			"y":42
+		},
+		"coreRadius":12,
+		"hardpoints":[
+			{
+				"wclass":1,
+				"offset":{
+					"x":24,
+					"y":32
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":104,
+					"y":32
+				}
+			}
+		],
+		"stat":{
+			"movementStats":{
+				"maxSpeed":850,
+				"maxAccel":1100,
+				"minDecel":40
+			}
+		}
+	},
+	{
+		"id":"sapper",
+		"name":"AWT4 Sapper",
+		"descShort":"A lightly-armored but highly maneuverable craft.",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+		"textureFile":"data/ship/sapper.png",
+		"textureSize":{
+			"x":241,
+			"y":128
+		},
+		"maskFile":"data/ship/sapper-mask.png",
+		"damageFile":"data/ship/sapper-damaged.png",
+		"overlayFile":"data/ship/sapper-overlay.png",
+		"enginePoints":
+		[
+			{ "x":18, "y":42 },
+			{ "x":116, "y":59 }
+		],
+		"coreOffset":{
+			"x":70,
+			"y":30
+		},
+		"coreRadius":12,
+		"hardpoints":[
+			{
+				"wclass":1,
+				"offset":{
+					"x":26,
+					"y":47
+				}
+			},
+			{
+				"wclass":2,
+				"offset":{
+					"x":100,
+					"y":59
+				}
+			},
+			{
+				"wclass":2,
+				"offset":{
+					"x":146,
+					"y":59
+				}
+			}
+		],
+		"stat":{
+			"movementStats":{
+				"maxSpeed":450,
+				"maxAccel":800,
+				"minDecel":40
+			}
+		}
+	},
+	{
+		"id":"temp1",
+		"name":"SR-105 'Hawkbill' Destroyer",
+		"descShort":"A well-rounded craft.",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
+		"textureFile":"data/ship/temp1.png",
+		"textureSize":{
+			"x":308,
+			"y":128
+		},
+		"maskFile":"data/ship/temp1-mask.png",
+		"damageFile":"data/ship/temp1-damaged.png",
+		"overlayFile":"data/ship/temp1-overlay.png",
+		"enginePoints":
+		[
+			{ "x": 238, "y": 103 },
+			{ "x": 45, "y": 44 },
+			{ "x": 19, "y": 88 }
+		],
+		"coreOffset":{
+			"x":80,
+			"y":60
+		},
+		"coreRadius":12,
+		"hardpoints":[
+			{
+				"wclass":2,
+				"offset":{
+					"x":248,
+					"y":80
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":22,
+					"y":88
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":85,
+					"y":88
+				}
+			}
+		],
+		"stat":{
+			"movementStats":{
+				"maxSpeed":400,
+				"maxAccel":700,
+				"minDecel":40
+			}
+		}
+	},
+	{
+		"id":"temp2",
+		"name":"SR-405 'Angry Bee' Heavy Cruiser",
+		"descShort":"It was big. Reeally big. No, bigger than that.",
+		"desc":"We're talking leviathans and battleships here.",
+		"textureFile":"data/ship/temp2.png",
+		"textureSize":{
+			"x":380,
+			"y":200
+		},
+		"maskFile":"data/ship/temp2-mask.png",
+		"damageFile":"data/ship/temp2-damaged.png",
+		"overlayFile":"data/ship/temp2-overlay.png",
+		"enginePoints":
+		[
+			{ "x": 15, "y": 104 },
+			{ "x": 15, "y": 140 },
+			{ "x": 287, "y": 108 },
+			{ "x": 340, "y": 108 },
+			{ "x": 126, "y": 41 },
+			{ "x": 230, "y": 40 }
+		],
+		"coreOffset":{
+			"x":235,
+			"y":86
+		},
+		"coreRadius":12,
+		"hardpoints":[
+			{
+				"wclass":1,
+				"offset":{
+					"x":34,
+					"y":102
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":96,
+					"y":81
+				}
+			},
+			{
+				"wclass":2,
+				"offset":{
+					"x":155,
+					"y":59
+				}
+			},
+			{
+				"wclass":2,
+				"offset":{
+					"x":339,
+					"y":105
+				}
+			}
+		],
+		"stat":{
+			"movementStats":{
+				"maxSpeed":300,
+				"maxAccel":400,
+				"minDecel":40
+			}
+		}
+	},
+	{
+		"id":"orion",
+		"name":"Orion Artillery",
+		"descShort":"Zap.",
+		"desc":"Zapzapzapzapzapzapazppzapzpzapazppap.",
+		"textureFile":"data/ship/orion.png",
+		"textureSize":{
+			"x":380,
+			"y":200
+		},
+		"maskFile":"data/ship/orion-mask.png",
+		"damageFile":"data/ship/orion-damaged.png",
+		"overlayFile":"data/ship/orion-overlay.png",
+		"enginePoints":
+		[
+			{ "x": 10, "y": 94 },
+			{ "x": 10, "y": 120 },
+			{ "x": 247, "y": 55 },
+			{ "x": 113, "y": 147 },
+			{ "x": 350, "y": 88 }
+		],
+		"coreOffset":{
+			"x":80,
+			"y":68
+		},
+		"coreRadius":12,
+		"hardpoints":[
+			{
+				"wclass":2,
+				"template":"oriongun",
+				"offset":{
+					"x":142,
+					"y":134
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":184,
+					"y":55
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":247,
+					"y":55
+				}
+			},
+			{
+				"wclass":2,
+				"offset":{
+					"x":63,
+					"y":143
+				}
+			}
+		],
+		"stat":{
+			"movementStats":{
+				"maxSpeed":300,
+				"maxAccel":400,
+				"minDecel":40
+			}
+		}
+	},
+	{
+		"id":"fish",
+		"name":"Carcharodon Destroyer",
+		"descShort":"Enough said.",
+		"desc":"Nom nom nom.",
+		"textureFile":"data/ship/fish.png",
+		"textureSize":{
+			"x":506,
+			"y":206
+		},
+		"maskFile":"data/ship/fish-mask.png",
+		"damageFile":"data/ship/fish-damaged.png",
+		"overlayFile":"data/ship/fish-overlay.png",
+		"enginePoints":
+		[
+			{ "x": 19, "y": 72 },
+			{ "x": 19, "y": 149 },
+			{ "x": 213, "y": 160 },
+			{ "x": 360, "y": 160 },
+			{ "x": 203, "y": 93 }
+		],
+		"coreOffset":{
+			"x":355,
+			"y":125
+		},
+		"coreRadius":12,
+		"hardpoints":[
+			{
+				"wclass":2,
+				"template":"sharkbeam",
+				"offset":{
+					"x":484,
+					"y":77
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":200,
+					"y":150
+				}
+			},
+			{
+				"wclass":1,
+				"offset":{
+					"x":340,
+					"y":150
+				}
+			},
+			{
+				"wclass":2,
+				"template":"sharkgun",
+				"offset":{
+					"x":478,
+					"y":138
+				}
+			}
+		],
+		"stat":{
+			"movementStats":{
+				"maxSpeed":500,
+				"maxAccel":300,
+				"minDecel":40
+			}
+		}
+	}
 ]
