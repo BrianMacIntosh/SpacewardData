@@ -101,8 +101,6 @@
 			"radius":15
 		},
 		"selfHit":true,
-		"areaImpactShake":160,
-		"targetImpactShake":200,
 		"stat":{
 		"physics":true,
 		"lifeTime":0,
@@ -138,8 +136,6 @@
 			"type":"circle",
 			"radius":15
 		},
-		"areaImpactShake":160,
-		"targetImpactShake":200,
 		"stat":{
 			"physics":true,
 			"movementStats":{

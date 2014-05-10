@@ -8,7 +8,7 @@
 	{
 		"id":"basepulse_small",
 		"lifeTime":0.2,
-		"fadeOut":true,
+		"fade":"out",
 		"textureFile":"data/effect/basepulse_small.png",
 		"textureSize":{"x":2000,"y":2000}
 	},
@@ -17,7 +17,7 @@
 		"lifeTime":0.6,
 		"textureFile":"data/effect/smoke.png",
 		"textureSize":{"x":32,"y":32},
-		"fadeOut":true,
+		"fade":"out",
 		"scaleOver":
 		{
 			"start":1,
@@ -36,7 +36,7 @@
 		"lifeTime":2,
 		"textureFile":"data/effect/smoke.png",
 		"textureSize":{"x":32,"y":32},
-		"fadeOut":true,
+		"fade":"out",
 		"scaleOver":
 		{
 			"start":1,
@@ -55,7 +55,7 @@
 		"lifeTime":1,
 		"textureFile":"data/effect/fire.png",
 		"textureSize":{"x":64,"y":64},
-		"fadeOut":true,
+		"fade":"out",
 		"scaleOver":
 		{
 			"start":0.7,
@@ -133,6 +133,7 @@
 	{
 		"id":"e_explosion_small",
 		"lifeTime":0.3,
+		"screenShake":160,
 		"sources":
 		[
 			{
@@ -207,7 +208,6 @@
 		"lifeTime":0.05,
 		"textureFile":"data/effect/circle_med_white.png",
 		"textureSize":{"x":64,"y":64},
-		"fadeOut":true,
 		"movementStats":
 		{
 			"maxSpeed":1,
@@ -276,7 +276,7 @@
 		"lifeTime":0.6,
 		"textureFile":"data/effect/railtrail.png",
 		"textureSize":{"x":16,"y":16},
-		"fadeOut":true,
+		"fade":"out",
 		"movementStats":
 		{
 			"maxSpeed":2000,
@@ -290,7 +290,7 @@
 		"lifeTime":0.4,
 		"textureFile":"data/effect/chaff.png",
 		"textureSize":{"x":16,"y":16},
-		"fadeOut":true,
+		"fade":"out",
 		"movementStats":
 		{
 			"maxSpeed":2000,
@@ -359,7 +359,7 @@
 		"lifeTime":1,
 		"textureFile":"data/effect/rail_shrapnel.png",
 		"textureSize":{"x":16,"y":16},
-		"fadeOut":false,
+		"fade":"out",
 		"faceMovement":true,
 		"movementStats":
 		{
@@ -391,13 +391,95 @@
 				{
 					"mean":-1400,
 					"stdDev":50
-				},
-				"rotation":
-				{
-					"mean":0,
-					"stdDev":0
 				}
 			}
 		]
+	},
+	{
+		"id":"coreray",
+		"lifeTime":3,
+		"textureFile":"data/effect/coreray.png",
+		"textureSize":{"x":256,"y":24},
+		"fade":"in",
+		"scaleOver":
+		{
+			"start":0.5,
+			"end":3
+		},
+		"movementStats":
+		{
+			"maxSpeed":0,
+			"minSpeed":0,
+			"maxAccel":0,
+			"minDecel":0
+		}
+	},
+	{
+		"id":"e_coredeath",
+		"lifeTime":1,
+		"sources":
+		[
+			{
+				"emits":"coreray",
+				"spawnCount":1,
+				"asChild":true,
+				"spawnInterval":
+				{
+					"mean":0.18,
+					"stdDev":0.0
+				},
+				"angle":
+				{
+					"mean":0,
+					"stdDev":3.14159
+				}
+			}
+		]
+	},
+	{
+		"id":"e_shipdeath",
+		"lifeTime":3,
+		"sources":
+		[
+			{
+				"emits":"e_explosion_small",
+				"spawnCount":1,
+				"spawnInterval":
+				{
+					"mean":0.4,
+					"stdDev":0.0
+				},
+				"atRadius":
+				{
+					"mean":100,
+					"stdDev":50
+				}
+			},
+			{
+				"emits":"screenflashwhite",
+				"spawnCount":1,
+				"spawnInterval":
+				{
+					"mean":0,
+					"stdDev":0,
+					"offset":3
+				}
+			}
+		]
+	},
+	{
+		"id":"screenflashwhite",
+		"lifeTime":0.4,
+		"textureFile":"data/effect/white.png",
+		"textureSize":{"x":4,"y":4},
+		"screenLocked":true,
+		"fade":"both",
+		"movementStats":
+		{
+			"maxSpeed":0,
+			"minSpeed":0,
+			"maxAccel":0,
+			"minDecel":0
+		}
 	}
 ]

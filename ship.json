@@ -1,64 +1,14 @@
 [
 	{
-		"id":"ship1",
-		"name":"AWT5 'Centennial Falcon' Light Scout",
-		"descShort":"A lightly-armored but highly maneuverable craft.",
-		"desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-		"textureFile":"data/ship/ship1.png",
-		"textureSize":{
-			"x":128,
-			"y":64
-		},
-		"maskFile":"data/ship/ship1-mask.png",
-		"damageFile":"data/ship/ship1-damaged.png",
-		"overlayFile":"data/ship/ship1-overlay.png",
-		"enginePoints":
-		[
-			{ "x": 27, "y": 41 },
-			{ "x": 94, "y": 41 }
-		],
-		"coreOffset":{
-			"x":64,
-			"y":42
-		},
-		"coreRadius":12,
-		"hardpoints":[
-			{
-				"wclass":1,
-				"offset":{
-					"x":24,
-					"y":32
-				}
-			},
-			{
-				"wclass":1,
-				"offset":{
-					"x":104,
-					"y":32
-				}
-			}
-		],
-		"stat":{
-			"movementStats":{
-				"maxSpeed":850,
-				"maxAccel":1100,
-				"minDecel":40
-			}
-		}
-	},
-	{
 		"id":"sapper",
 		"name":"AWT4 Sapper",
 		"descShort":"A lightly-armored but highly maneuverable craft.",
 		"desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-		"textureFile":"data/ship/sapper.png",
+		"textureFile":"data/ship/sapper",
 		"textureSize":{
 			"x":241,
 			"y":128
 		},
-		"maskFile":"data/ship/sapper-mask.png",
-		"damageFile":"data/ship/sapper-damaged.png",
-		"overlayFile":"data/ship/sapper-overlay.png",
 		"enginePoints":
 		[
 			{ "x":18, "y":42 },
@@ -105,14 +55,11 @@
 		"name":"SR-105 'Hawkbill' Destroyer",
 		"descShort":"A well-rounded craft.",
 		"desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ipsum sapien. Ut erat nisi, fringilla nec feugiat sit amet, feugiat a sapien. Donec rhoncus risus nunc, ut pulvinar velit mattis vitae. Quisque tristique nisl sapien, at aliquam dui aliquam a. Praesent sit amet est urna. Nulla arcu neque, posuere nec risus eget, vestibulum posuere sapien. Vestibulum ultricies eleifend nunc, sit amet commodo turpis egestas a.",
-		"textureFile":"data/ship/temp1.png",
+		"textureFile":"data/ship/temp1",
 		"textureSize":{
 			"x":308,
 			"y":128
 		},
-		"maskFile":"data/ship/temp1-mask.png",
-		"damageFile":"data/ship/temp1-damaged.png",
-		"overlayFile":"data/ship/temp1-overlay.png",
 		"enginePoints":
 		[
 			{ "x": 238, "y": 103 },
@@ -160,14 +107,11 @@
 		"name":"SR-405 'Angry Bee' Heavy Cruiser",
 		"descShort":"It was big. Reeally big. No, bigger than that.",
 		"desc":"We're talking leviathans and battleships here.",
-		"textureFile":"data/ship/temp2.png",
+		"textureFile":"data/ship/temp2",
 		"textureSize":{
 			"x":380,
 			"y":200
 		},
-		"maskFile":"data/ship/temp2-mask.png",
-		"damageFile":"data/ship/temp2-damaged.png",
-		"overlayFile":"data/ship/temp2-overlay.png",
 		"enginePoints":
 		[
 			{ "x": 15, "y": 104 },
@@ -225,14 +169,11 @@
 		"name":"Orion Artillery",
 		"descShort":"Zap.",
 		"desc":"Zapzapzapzapzapzapazppzapzpzapazppap.",
-		"textureFile":"data/ship/orion.png",
+		"textureFile":"data/ship/orion",
 		"textureSize":{
 			"x":380,
 			"y":200
 		},
-		"maskFile":"data/ship/orion-mask.png",
-		"damageFile":"data/ship/orion-damaged.png",
-		"overlayFile":"data/ship/orion-overlay.png",
 		"enginePoints":
 		[
 			{ "x": 10, "y": 94 },
@@ -290,14 +231,11 @@
 		"name":"Carcharodon Destroyer",
 		"descShort":"Enough said.",
 		"desc":"Nom nom nom.",
-		"textureFile":"data/ship/fish.png",
+		"textureFile":"data/ship/fish",
 		"textureSize":{
 			"x":506,
 			"y":206
 		},
-		"maskFile":"data/ship/fish-mask.png",
-		"damageFile":"data/ship/fish-damaged.png",
-		"overlayFile":"data/ship/fish-overlay.png",
 		"enginePoints":
 		[
 			{ "x": 19, "y": 72 },
